@@ -1,0 +1,70 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+/* Navigation */
+
+.navbar {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(35, 35, 35);
+  min-height: 15vh;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: #59C3DF;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.right-container img {
+  width: 80px;
+}
+
+.left-container {
+  color: white;
+  padding-right: 2rem;
+} 
+
+/* Main */
+
+.main{
+  background-color: rgb(45, 45, 47);
+  color: white;
+  padding: 3rem;
+  min-height: 100vh;
+  background-image: url(./images/logo.svg);
+  background-repeat: no-repeat;
+  background-position: 200%;
+
+}
+
+.main > h1 {
+  padding: 1rem 0;
+  font-size: 3rem;
+}
+
+main > ul {
+  padding-left: 3rem;
+}
+
+main > ul > li {
+  padding: .5rem 0;
+}
+
+main > ul > li::marker {
+  color: #59C3DF;
+  font-size: 2rem;
+}
