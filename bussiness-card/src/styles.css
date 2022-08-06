@@ -1,0 +1,97 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(43, 43, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.App {
+    margin: 2vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 70vw;
+    max-height: 90vh;
+    background-color: rgb(28, 28, 39);
+}
+
+.Info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.Info > .h1 {
+    padding-top: 0.5rem;
+    font-size: 2rem;
+}
+
+.Info > .h2 {
+    color:goldenrod;
+}
+
+.Info > .h3 {
+    padding: .5rem 0;
+    font-size: .8rem;
+}
+
+.Info > .button {
+    min-width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    border: .1rem solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.Info > .button > p {
+    padding-left: .5rem;
+}
+
+.About {
+    padding: 1.5rem 3rem;
+    text-align: left;
+}
+
+.About > h1 {
+    padding-bottom: .5rem;
+}
+
+.Interests {
+    padding: 1.5rem 3rem;
+    text-align: left;
+}
+
+.Interests > h1 {
+    padding-bottom: .5rem;
+}
+
+.Footer{
+    min-width: 100%;
+    background-color: rgb(13, 13, 24);
+}
+
+.Footer > ul{
+    padding: 1rem 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.Footer > ul > li {
+    font-size: 2rem;
+}
